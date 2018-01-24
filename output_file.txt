@@ -1,0 +1,5 @@
+# of total documents scanned: 1265
+# of Doctors matched with NPI: 864
+# of Practices matched with address: 921
+# of Doctors matched with name and address: 921
+# of documents that could not be matched: : 171

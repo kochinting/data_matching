@@ -13,6 +13,7 @@ This is a data matching script to match csv file "match_file.csv" to json file "
 - Num of Practices matched with address: 921
 - Num of Doctors matched with name and address: 921
 - Num of documents that could not be matched: : 171
+- Num of documents that matched: : 1094
 
 #### data_matching.py:
 python script to match csv file "match_file.csv" to json file "source_data.json"

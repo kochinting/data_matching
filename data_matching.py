@@ -8,11 +8,12 @@ first name + last name + full address
 full address
 
 * Output:
-# of total documents scanned: 1265
-# of Doctors matched with NPI: 864
-# of Practices matched with address: 921
-# of Doctors matched with name and address: 921
-# of documents that could not be matched: : 171
+# of total documents scanned:  1265
+# of Doctors matched with NPI:  864
+# of Practices matched with address:  921
+# of Doctors matched with name and address:  921
+# of documents that could not be matched:  171
+# of documents that matched:  1094
 
 author: Chin-Ting Ko (Tim)
 date: 01/23/2017
@@ -117,6 +118,10 @@ match_false = match[match['MATCH'] == False]
 
 print '# of documents that could not be matched: ', len(match_false.index)
 output_file.write('# of documents that could not be matched: : ' + str(len(match_false.index)) + '\n')
+
+print '# of documents that matched: ', len(match_true.index)
+output_file.write('# of documents that matched: : ' + str(len(match_true.index)) + '\n')
+
 output_file.close()
 
 match.to_csv('match_result.csv')

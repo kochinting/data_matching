@@ -3,3 +3,4 @@
 # of Practices matched with address: 921
 # of Doctors matched with name and address: 921
 # of documents that could not be matched: : 171
+# of documents that matched: : 1094
